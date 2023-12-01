@@ -378,5 +378,13 @@ main .container-exterior .marcas.section .container-carrusel .slide .grilla .car
     display: none;
   }
 }
+@media screen and (max-width: 991px) {
+  header nav .separador {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
